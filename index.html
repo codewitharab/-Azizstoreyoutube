@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-Shirt Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        .store {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .tshirt {
+            width: 200px;
+            margin: 1rem;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: #fff;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .tshirt:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .tshirt img {
+            width: 100%;
+            display: block;
+        }
+
+        .tshirt .info {
+            padding: 1rem;
+        }
+
+        .tshirt .info h2 {
+            font-size: 1.2rem;
+            margin: 0 0 0.5rem;
+        }
+
+        .tshirt .info p {
+            font-size: 1rem;
+            margin: 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My T-Shirt Store</h1>
+    </header>
+
+    <div class="store">
+        <div class="tshirt">
+            <img src="Screenshot (348).png" alt="T-Shirt 1">
+            <div class="info">
+                <h2>T-Shirt 1</h2>
+                <p>$20.00</p>
+            </div>
+        </div>
+
+        <div class="tshirt">
+            <img src="Screenshot (349).png" alt="T-Shirt 2">
+            <div class="info">
+                <h2>T-Shirt 2</h2>
+                <p>$25.00</p>
+            </div>
+        </div>
+
+        <div class="tshirt">
+            <img src="Screenshot (350).png" alt="T-Shirt 3">
+            <div class="info">
+                <h2>T-Shirt 3</h2>
+                <p>$18.00</p>
+            </div>
+        </div>
+
+        <div class="tshirt">
+            <img src="Screenshot (351).png" alt="T-Shirt 4">
+            <div class="info">
+                <h2>T-Shirt 4</h2>
+                <p>$22.00</p>
+            </div>
+        </div>
+
+        <div class="tshirt">
+            <img src="Screenshot (352).png" alt="T-Shirt 5">
+            <div class="info">
+                <h2>T-Shirt 5</h2>
+                <p>$19.00</p>
+            </div>
+        </div>
+
+        <div class="tshirt">
+            <img src="Screenshot (353).png" alt="T-Shirt 6">
+            <div class="info">
+                <h2>T-Shirt 6</h2>
+                <p>$21.00</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 My T-Shirt Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
